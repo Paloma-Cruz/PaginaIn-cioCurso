@@ -1,0 +1,104 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: #ccc;
+	margin: 0;
+}
+.cabeca{
+	height: 640px;
+	background-image: url(bg-4.jpg);
+	background-size: cover;
+	border-top: 2px solid transparent;
+}
+.cabeca nav ul{
+	text-align: right;
+	margin: 25px 25px 0 10px;
+}
+.cabeca nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+	border: solid 2px white;
+}
+.cabeca nav ul li a{
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 12px;
+	display: block;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.cabeca nav ul li a:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.title-topo{
+	text-align: center;
+	margin-top: 170px;
+}
+.title-topo h1{
+	font-size: 56px;
+	color: white;
+	text-shadow: 3px 3px 2px black;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+.title-topo p{
+	border: groove 2px black;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	display: inline-block;
+	padding: 10px;
+}
+main{
+	width: 80%;
+	margin: auto;
+}
+section{
+	background-color: white;
+	padding: 15px;
+	margin-top: 10px;
+}
+.galeria{
+	overflow: auto;
+}
+.card{
+	width: 32%;
+	box-sizing: border-box;
+	float: left;
+}
+.card img{
+	width: 100%;
+}
+.card1, .card2{
+	margin-right: 2%;
+}
+.card p{
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 10px;
+}
+.artigo{
+	height: 150px;
+}
+.artigo h2{
+	background-color: #ccc;
+	margin-top: 2px;
+	padding: 5px;
+	font-size: 28px;
+	border-bottom: solid 2px black;
+}
+.artigo p{
+	font-size: 18px;
+}
+footer{
+	background-color: #5f584f;
+	height: 80px;
+}
+footer p{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	text-shadow: 3px 3px 2px black;
+	font-size: 18px;
+}
